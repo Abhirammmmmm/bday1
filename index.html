@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wishes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <div class="image-slider">
+            <div class="slides">
+                <img src="birthday_picture1.jpg" alt="Birthday Picture 1">
+                <img src="birthday_picture2.jpg" alt="Birthday Picture 2">
+                <img src="birthday_picture3.jpg" alt="Birthday Picture 3">
+            </div>
+        </div>
+        <audio id="birthdaySong" autoplay>
+            <source src="birthday_song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Wishing you a day filled with love and joy!</p>
+        <button id="playButton" onclick="playAudio()">Play Song</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
