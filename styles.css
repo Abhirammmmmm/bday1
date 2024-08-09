@@ -30,13 +30,15 @@ body {
 .slides {
     display: flex;
     width: 2000%; /* Adjusted width to accommodate 20 images */
-    animation: scroll 80s linear infinite; /* Adjusted duration for smoother scrolling */
+    animation: scroll 260s linear infinite; /* Adjusted duration for smoother scrolling */
 }
 
 .slides img {
-    width: 50%; /* Image size set to half */
+    width: 100%; /* Set image width to fill the container */
+    max-width: 300px; /* Maximum width suitable for phone screens */
     height: auto;
     border-radius: 10px;
+    object-fit: cover; /* Ensures consistent image presentation */
 }
 
 @keyframes scroll {
@@ -74,6 +76,7 @@ button:hover {
     }
 
     .slides img {
-        width: 40%; /* Further reduce size for mobile screens */
+        width: 90%; /* Fit images nicely on smaller screens */
+        max-width: none; /* Remove max-width limitation for very small screens */
     }
 }
