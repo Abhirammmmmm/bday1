@@ -34,7 +34,7 @@ body {
 }
 
 .slides img {
-    width: 100%;
+    width: 50%; /* Decreased the image size to half of the original */
     height: auto;
     border-radius: 10px;
 }
@@ -51,7 +51,6 @@ audio {
 }
 
 button {
-    display: none; /* Initially hidden */
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
@@ -77,6 +76,6 @@ button:hover {
     }
 
     .slides img {
-        width: 80%;
+        width: 40%; /* Further reduce size for mobile screens */
     }
 }
