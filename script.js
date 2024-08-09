@@ -16,5 +16,5 @@ window.onload = function() {
         playButton.style.display = 'none'; // Hide button after playing
     });
 
-    alert('Surprise! Happy Birthday Vishuuuu ❤️!');
+    alert('Surprise! Happy Birthday Vishuuu ❤️ !');
 };
